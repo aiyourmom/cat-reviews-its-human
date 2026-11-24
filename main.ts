@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const REVIEW =
-  "My owner feeds me, shelters me, and worships me daily — 4 stars, docking one for the 3 AM vacuum.";
+  "My owner feeds me, shelters me, and worships me daily — 1 star, would not recommend the 3 AM vacuum.";
 
 // Gate: the entry must be 1–200 characters (code points), one line, not blank.
 const len = [...REVIEW].length;
